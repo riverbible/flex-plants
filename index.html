@@ -5,29 +5,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&amp;family=Noto+Sans+KR:wght@400;700&amp;display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
   <header>
+    <h1 class="logo">🌿 초록 화분</h1>
     <nav>
       <ul class="menu">
+        <li><a href="#">이달의 화분</a></li>
         <li><a href="#">키우는법</a></li>
         <li><a href="#">매장 둘러보기</a></li>
         <li><a href="#">소식 받기</a></li>
       </ul>
     </nav>
   </header>
-  <section class="hero">
-    <p class="sub">green pot shop</p>
-    <h1>책상 위에 작은 숲을 들여요</h1>
-    <p>처음 키워도 괜찮아요. 물 주는 날까지 알려드려요.</p>
-    <div class="btn-wrap">
-      <a href="#">화분 구경하기</a>
-      <a href="#">키우는 법 보기</a>
-    </div>
-  </section>
   <main>
+    <section class="hero">
+      <p class="sub">green pot shop</p>
+      <h2>책상 위에 작은 숲을 들여요</h2>
+      <p>처음 키워도 괜찮아요. 물 주는 날까지 알려드려요.</p>
+      <div class="btn-wrap">
+        <a href="#" class="btn">화분 구경하기</a>
+        <a href="#" class="btn line">키우는법 보기</a>
+      </div>
+    </section>
     <section id="plants">
       <h2>이달의 화분</h2>
       <div class="cards">
@@ -98,33 +102,43 @@
       <h2>매장 둘러보기</h2>
       <ul class="gallary">
         <li>
-          <p class="emoji">🏡</p>
+          <p class="emoji">
+            🏡
+          </p>
           <h3>성수동 본점</h3>
           <p>화분 200종이 기다려요</p>
         </li>
         <li>
-          <p class="emoji">🌻</p>
+          <p class="emoji">
+            🌻
+          </p>
           <h3>분갈이 코너</h3>
         </li>
         <li>
-          <p class="emoji">🎁</p>
-          <h3>선물 포장</h3>
+          <p class="emoji">
+            🎁
+          </p>
+          <h3>선물포장</h3>
         </li>
         <li>
-          <p class="emoji">☕</p>
-          <h3>식물 카페</h3>
+          <p class="emoji">
+            ☕
+          </p>
+          <h3>식물카페</h3>
         </li>
         <li>
-          <p class="emoji">🧑‍🌾</p>
+          <p class="emoji">
+            🧑‍🌾
+          </p>
           <h3>원데이 클래스</h3>
         </li>
       </ul>
     </section>
     <section id="news">
       <h2>새 소식 받기</h2>
-      <form action="">
+      <form>
         <label for="email">이메일</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="green@pot.com">
         <select name="">
           <option value="weeks">매주</option>
           <option value="monthly">매달</option>
