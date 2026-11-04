@@ -236,14 +236,30 @@ header {
 #news form {
   display: flex;
   background-color: #fff;
-  padding: 30px;
-  align-items: stretch;
+  padding: 10px 30px;
+  align-items: center;
   justify-content: center;
   gap: 5px;
 }
 
-#news form label {
-  color: #000;
+label {
+  font-weight: bold;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+select {
+  padding: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: 0;
+  background-color: #2d6a4f;
+  color: #ffffff;
 }
 
 footer {
