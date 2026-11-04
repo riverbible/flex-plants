@@ -47,6 +47,9 @@ header {
   padding: 16px 40px;
   background-color: #2D6A4F;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -121,6 +124,7 @@ header {
   padding: 24px;
   background-color: #fff;
   border: 1px solid #D8F3DC;
+  position: relative;
 }
 
 .card:nth-child(2) {
@@ -134,6 +138,25 @@ header {
 
 .card h3 {
   font-size: 22px;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  padding: 2px 10px;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+.badge.new {
+  background-color: #2D6A4F;
+  color: #fff;
+}
+
+.badge.hot {
+  background-color: #E76F51;
+  color: #fff;
 }
 
 .price {
@@ -278,4 +301,20 @@ footer {
 
 .sns li a:hover {
   color: #FFD166;
+}
+
+.top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 20px;
+  bottom: 80px;
+  background-color: #ccc;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
 }
