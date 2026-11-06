@@ -1,0 +1,71 @@
+@media screen and (max-width:1040px) {
+  main {
+    width: auto;
+    margin: 0 20px;
+    padding: 0 40px 40px;
+  }
+}
+
+@media screen and (max-width:786px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .menu li {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+  }
+
+  .hero {
+    white-space: nowrap;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .step {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .gallary {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px 150px 150px;
+  }
+
+
+  .gallary li:first-child {
+    grid-row: span 1;
+  }
+
+  .gallary li:first-child .emoji {
+    font-size: 60px;
+  }
+
+  #news form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
